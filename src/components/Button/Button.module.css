@@ -1,0 +1,43 @@
+.button {
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-top: 5px;
+    transition: .5s ease;
+}
+
+.red {
+    background: var(--red);
+}
+
+.red:hover {
+    background: var(--red-dark);
+}
+
+.white {
+    background: var(--gray-light);
+}
+
+.white:hover {
+    background: var(--white);
+
+}
+
+.blue {
+    background: var(--blue);
+    color: var(--gray-light);
+}
+
+.blue:hover {
+    background: var(--light-blue);
+    color: white;
+}
+
+.down > * {
+    transform: rotate(90deg);
+}

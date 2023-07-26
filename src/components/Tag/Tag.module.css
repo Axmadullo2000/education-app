@@ -1,0 +1,33 @@
+.tag {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .5s ease;
+    font-weight: bold;
+}
+
+.s {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.m {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.white {
+    background: var(--green-light);
+    color: var(--blue);
+}
+
+.yellow {
+    background: var(--yellow);
+}
+
+.blue {
+    background: var(--blue);
+    color: var(--white);
+    border: 2px solid var(--yellow);
+}

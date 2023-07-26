@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background: rgb(33, 26, 26);
+    color: var(--green-light);
+}
+
+:root {
+    --font-family: Candara, sans-sarif;
+    --black: #3b434e;
+    --gray-light: #c7c4c4;
+    --gold: gold;
+    --gray-dark: #787d85;
+    --white: rgb(245, 245, 204);
+    --primary: #140342;
+    --primary-hover: #08011a;
+    --red: #ee5c54;
+    --red-dark: #f15129;
+    --blue: #2d37d3;
+    --green-light: #c8f8e4;
+    --light-blue: #1058d5;
+}
+
