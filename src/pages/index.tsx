@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
-import {Heading, Text, Tag, Button} from "@/components";
 import {useState} from "react";
+
+import {Heading, Text, Tag, Button, Input, TextArea} from "@/components";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,8 +41,10 @@ export default function Home() {
         <Button appearance={'red'} arrow='right'>
           A (red)
         </Button>
-
       </div>
+
+      <Input placeholder={'Write anything here!'} />
+      <TextArea placeholder={'Write anything to the message'} />
     </main>
   )
 }
