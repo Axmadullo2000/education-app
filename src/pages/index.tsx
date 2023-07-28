@@ -1,12 +1,13 @@
 import { Inter } from 'next/font/google'
 import {useState} from "react";
 
-import {Heading, Text, Tag, Button, Input, TextArea} from "@/components";
+import {Heading, Text, Tag, Button, Input, TextArea, Rating} from "@/components";
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [click, setClick] = useState(false)
+  const [rating, setRating] = useState<number>(4)
 
 
   return (
@@ -44,7 +45,11 @@ export default function Home() {
       </div>
 
       <Input placeholder={'Write anything here!'} />
-      <TextArea placeholder={'Write anything to the message'} />
+      <div>
+        <TextArea placeholder={'Write anything to the message'} />
+      </div>
+
+      <Rating rating={rating} isEditable={true} setRating={setRating} />
     </main>
   )
 }

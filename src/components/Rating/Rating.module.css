@@ -1,0 +1,11 @@
+.rating {
+    display: flex;
+}
+
+.filled svg {
+    fill: blue;
+}
+
+.editable {
+    cursor: pointer;
+}
