@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import {useState} from "react";
 
 import {Heading, Text, Tag, Button, Input, TextArea, Rating} from "@/components";
+import Card from "@/components/Card";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -50,6 +51,10 @@ export default function Home() {
       </div>
 
       <Rating rating={rating} isEditable={true} setRating={setRating} />
+
+      <Card color={'yellow'} className={''} >Body 1</Card>
+      <Card color={'red'} className={''} >Body 2</Card>
+      <Card color={'purple'} className={''} >Body 3</Card>
     </main>
   )
 }

@@ -18,12 +18,13 @@ body {
     --gray-light: #c7c4c4;
     --gold: gold;
     --gray-dark: #787d85;
-    --white: rgb(245, 245, 204);
+    --white: white;
     --primary: #140342;
     --primary-hover: #08011a;
-    --red: #ee5c54;
+    --red: red;
     --red-dark: #f15129;
     --blue: #2d37d3;
     --green-light: #c8f8e4;
     --light-blue: #1058d5;
+    --purple: purple
 }
